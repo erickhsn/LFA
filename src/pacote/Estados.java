@@ -9,7 +9,7 @@ public class Estados
 	private ArrayList<String[]> transicoes = new ArrayList<String[]>();
 	private AFD afd;
 	
-		public Estados(AFD afd)
+	public Estados(AFD afd)
 	{
 		this.afd = afd;
 	}
@@ -30,6 +30,8 @@ public class Estados
 		System.out.println(this.estados);
 		for(int i = 0; i < this.transicoes.size(); i++)
 			System.out.println(this.transicoes.get(i)[0] +" - " + this.transicoes.get(i)[1]);
+		
+		
 	}
 	
 	public String[] geraTransicoes(int i)
