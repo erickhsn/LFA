@@ -13,10 +13,11 @@ public class Principal {
 			Estados e = new Estados(a);
 			e.separaEstadoFinal();
 			e.minimizaEstados();
+			// MOura viado
 		}
 		catch(IOException e)
 		{
-			System.out.println("Arquivo não encontrado");
+			System.out.println("Arquivo nï¿½o encontrado");
 		}
 		
 		
